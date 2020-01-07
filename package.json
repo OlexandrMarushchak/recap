@@ -4,7 +4,7 @@
   "description": "to recap smth :)",
   "scripts": {
     "browserify": "browserify ./src/Controllers/Main.js -o ./bundle.js",
-    "watchify": "watchify ./src/Controllers/Main.js -o ./bundle.js"
+    "watchify": "watchify ./src/Controllers/Main.js -o ./bundle.js -v"
   },
   "keywords": [],
   "author": "Alexander Marushchak",
