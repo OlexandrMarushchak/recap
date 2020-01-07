@@ -1,0 +1,17 @@
+{
+  "name": "Recap",
+  "version": "0.0.1",
+  "description": "to recap smth :)",
+  "scripts": {
+    "browserify": "browserify ./src/Controllers/Main.js -o ./bundle.js",
+    "watchify": "watchify ./src/Controllers/Main.js -o ./bundle.js"
+  },
+  "keywords": [],
+  "author": "Alexander Marushchak",
+  "devDependencies": {},
+  "dependencies": {
+    "browserify": "^16.5.0",
+    "pixi.js": "^5.2.0",
+    "watchify": "^3.11.1"
+  }
+}
